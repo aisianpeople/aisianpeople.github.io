@@ -1,0 +1,64 @@
+html {
+    min-height: 100%;
+    margin: 0;
+    width: 100%;
+    background-color: #557a95;
+    color: #313035;
+}
+
+body {
+    margin: 0px;
+    min-height: 100%;
+}
+
+#mainBody {
+    width: 80%;
+    margin-top: 8vh;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 8vh; */
+    background-color: #6f9c99;
+}
+
+#Profile Pic{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    margin-bottom: 1vh;
+}
+
+#list {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c5cbe3;
+}
+  
+#listItem {
+    float: left;
+}
+
+#Projects{
+    background-color: #c5cbe3;
+}
+
+#Bio{
+    float: left;
+}
