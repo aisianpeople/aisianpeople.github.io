@@ -58,8 +58,13 @@ h4 {
     display: inline;
 }
 
-/* #Projects{
-} */
+#Projects{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw;
+    border-radius: 2%;
+    border: double;
+}
 
 .LinkedInPic{
     margin-left: 1vw;
@@ -75,4 +80,19 @@ li{
 
 .contact{
     padding-bottom: 2vw;
+}
+
+#skills{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20vw;
+    border: double;
+}
+
+#about{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw;
+    border-radius: 10%;
+    border: double;
 }
