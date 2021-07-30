@@ -69,6 +69,7 @@ h4 {
 .LinkedInPic{
     margin-left: 1vw;
 }
+
 .favorites{
     display: table;
     margin: 0 auto;
@@ -78,21 +79,54 @@ li{
     text-align: left;
 }
 
-.contact{
+.Contact{
     padding-bottom: 2vw;
 }
 
-#skills{
+#Skills{
     margin-left: auto;
     margin-right: auto;
     width: 20vw;
     border: double;
 }
 
-#about{
+#About{
     margin-left: auto;
     margin-right: auto;
     width: 40vw;
     border-radius: 10%;
     border: double;
 }
+
+.topnav {
+    background-color: #0c0331;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+    position: fixed;
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: rgb(187, 210, 216);
+    color: rgb(0, 5, 46);
+  }
+
+  .topnav a.active {
+    background-color: #0491aa;
+    color: white;
+  }
+
+  .main {
+    margin-top: 30px;
+  }
